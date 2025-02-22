@@ -1,18 +1,26 @@
 <div align="center">
-  <h1>DreamChasers-Server（逐梦服务端）</h1>
+  <h1>DreamChasers（梦想驿站）</h1>
   <img src="assets/banner.png" alt="DreamChasers Banner" width="900">
 </div>
 
-
 ## 项目简介
 
-🎉亲爱的逐梦班同学们，欢迎来到程序员的世界！💻 这个服务端是我们班级梦想和回忆汇聚的地方，它如同一根纽带，为我们所有精彩的项目提供坚实的后盾。这里承载着我们共同的心愿和努力，连接着以下几个特别的项目：
+🎉 亲爱的逐梦班同学们，欢迎来到程序员的世界！💻 这个服务端是我们班级梦想和回忆汇聚的地方，它如同一根纽带，为我们所有精彩的项目提供坚实的后盾。这里承载着我们共同的心愿和努力，连接着以下几个特别的项目：
 
-- **[dreamchasers.top](https://dreamchasers.top)**：班级纪念网站，让我们的青春永远铭刻在这里。🌟
-- **[farewell.xin](https://farewell.xin)**：毕业告别网站，为我们带来最后的告别和温暖。❤️
-- **[SoulGlow App](https://github.com/while1cry/SoulGlow)**：心语灯——班级的电脑趣味功能桌面应用。💡
+- **[dreamchasers.top](https://dreamchasers.top)**：梦想驿站——这里永远是我们心灵的避风港。🌟
+- **[farewell.xin](https://farewell.xin)**：惜别梦途——为我们带来最后的告别和温暖。❤️
+- **[SoulGlow App](./soulglow/README.md)**：心语灯——班级的电脑趣味功能桌面应用。💡
 
 每一个项目都在诉说着我们的故事，每一个功能都是我们共同奋斗的见证。
+
+## 模块简介
+
+- **[client（网页端）](./client/README.md)**
+> DreamChasers-Client 包含了 [梦想驿站](https://dreamchasers.top) 和 [惜别梦途](https://farewell.xin) 的网页端
+- **[server（服务端）](./server/README.md)**
+> DreamChasers-Server 是一个基于 Spring Boot 和 KookBC 的服务端，为 [梦想驿站](https://dreamchasers.top), [惜别梦途](https://farewell.xin) 和 [心语灯](./soulglow/README.md) 提供支持。
+- **[soulglow（心语灯）](./soulglow/README.md)**
+> SoulGlow 是一个基于 JavaFX 的趣味功能桌面应用，为班级的电脑提供了更多的趣味功能。
 
 ## 项目背景
 
@@ -52,21 +60,6 @@
 - **GitHub**：作为我的代码托管平台，GitHub 不仅提供了代码版本控制，还让我能够轻松协作，进行 pull request 和 issue 跟踪。
 - **开源依赖**：本项目中使用了优秀的开源依赖（如 Spring Security、Spring Data JPA 等），这些依赖让我能够更加专注于项目的核心功能，而不必重复发明轮子。
 - **AI工具**：在整个开发过程中，AI工具为我提供了不可或缺的帮助。它们不仅帮助我解决了许多技术难题，也让我能够更好地理解和应用 Spring Boot 技术，甚至在编写代码时提供了思路和解决方案。
-
-## 📜 第三方开源许可证
-
-📝 本项目使用了以下开源软件，它们的版权归原作者所有。
-
-### 1️⃣ Spring Boot
-- **许可证**: Apache License 2.0
-- **官网**: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
-- **说明**: 用于构建高效的 Java Web 应用。
-
-### 2️⃣ MySQL Connector/J
-- **版本**: 9.2.0
-- **许可证**: GPL v2 with FOSS Exception
-- **官网**: [https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)
-- **说明**: MySQL 数据库的官方 Java 连接器。
 
 ## 开源许可
 

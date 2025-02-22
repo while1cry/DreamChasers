@@ -1,41 +1,27 @@
-plugins {
-    id 'org.springframework.boot' version '2.6.13'
-    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
-    id 'java'
-}
+subprojects {
+    apply plugin: 'java'
 
-group = 'top.dreamchasers'
-version = '0.0.1-SNAPSHOT'
-description = 'DreamChasers-Server is the backend service for class projects, including graduation farewell, memorial site, and desktop app'
+    group = 'top.dreamchasers'
+    version = '0.0.1-SNAPSHOT'
+    description = 'DreamChasers-Server is the backend service for class projects, including graduation farewell, memorial site, and desktop app'
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
-}
-
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-}
 
-repositories {
-    mavenCentral()
-}
+    configurations {
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
 
-dependencies {
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
+    repositories {
+        mavenCentral()
+    }
 
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.security:spring-security-core:6.4.3'
-
-    runtimeOnly 'com.mysql:mysql-connector-j:9.2.0'
-
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
-
-tasks.named('test') {
-    useJUnitPlatform()
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.36'
+        annotationProcessor 'org.projectlombok:lombok:1.18.36'
+    }
 }
