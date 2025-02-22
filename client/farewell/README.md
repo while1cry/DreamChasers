@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>DreamChasers-Web（梦想驿站网页端）</h1>
-  <img src="../assets/banner.png" alt="DreamChasers Banner" width="900">
+  <h1>DreamChasers-Web（惜别梦途网页端）</h1>
+  <img src="/assets/banner.png" alt="DreamChasers Banner" width="900">
 </div>
 
 
