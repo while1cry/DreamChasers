@@ -18,7 +18,7 @@
 - **[client（网页端）](./client/README.md)**
 > DreamChasers-Client 包含了 [梦想驿站](https://dreamchasers.top) 和 [惜别梦途](https://farewell.xin) 的网页端
 - **[server（服务端）](./server/README.md)**
-> DreamChasers-Server 是一个基于 Spring Boot 和 KookBC 的服务端，为 [梦想驿站](https://dreamchasers.top), [惜别梦途](https://farewell.xin) 和 [心语灯](./soulglow/README.md) 提供支持。
+> DreamChasers-Server 是一个基于 Spring Boot 的服务端，为 [梦想驿站](https://dreamchasers.top), [惜别梦途](https://farewell.xin) 和 [心语灯](./soulglow/README.md) 提供支持。
 - **[soulglow（心语灯）](./soulglow/README.md)**
 > SoulGlow 是一个基于 JavaFX 的趣味功能桌面应用，为班级的电脑提供了更多的趣味功能。
 
