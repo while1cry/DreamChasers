@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>DreamChasers-Server（梦想驿站服务端）</h1>
+  <h1>DreamChasers-Server（梦想驿站网页端）</h1>
   <img src="../assets/banner.png" alt="DreamChasers Banner" width="900">
 </div>
 
