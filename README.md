@@ -8,7 +8,6 @@
 🎉 亲爱的逐梦班同学们，欢迎来到程序员的世界！💻 这个项目是我们班级梦想和回忆汇聚的地方，它如同一根纽带，为我们所有精彩的项目提供坚实的后盾。这里承载着我们共同的心愿和努力，连接着以下几个特别的项目：
 
 - **[dreamchasers.top](https://dreamchasers.top)**：梦想驿站——这里永远是我们心灵的避风港。🌟
-- **[farewell.ink](https://farewell.ink)**：惜别梦途——为我们带来最后的告别和温暖。❤️
 - **[SoulGlow App](./soulglow/README.md)**：心语灯——班级的电脑趣味功能桌面应用。💡
 
 每一个项目都在诉说着我们的故事，每一个功能都是我们共同奋斗的见证。
@@ -16,9 +15,9 @@
 ## 模块简介
 
 - **[client（网页端）](./client/README.md)**
-> DreamChasers-Client 包含了 [梦想驿站](https://dreamchasers.top) 和 [惜别梦途](https://farewell.ink) 的网页端
+> DreamChasers-Client 包含了 [梦想驿站](https://dreamchasers.top) 的网页端
 - **[server（服务端）](./server/README.md)**
-> DreamChasers-Server 是一个基于 Spring Boot 的服务端，为 [梦想驿站](https://dreamchasers.top), [惜别梦途](https://farewell.ink) 和 [心语灯](./soulglow/README.md) 提供支持。
+> DreamChasers-Server 是一个基于 Spring Boot 的服务端，为 [梦想驿站](https://dreamchasers.top) 和 [心语灯](./soulglow/README.md) 提供支持。
 - **[soulglow（心语灯）](./soulglow/README.md)**
 > SoulGlow 是一个基于 JavaFX 的趣味功能桌面应用，为班级的电脑提供了更多的趣味功能。
 
